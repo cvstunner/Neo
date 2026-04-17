@@ -1,0 +1,142 @@
+# =============================================
+# Root Level Ignores (Common for entire project)
+# =============================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Custom backup folder
+bak/
+backup/
+*.bak
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =============================================
+# CLIENT (React, Svelte, Vite, etc.)
+# =============================================
+
+client/node_modules/
+client/dist/
+client/build/
+client/.svelte-kit/
+client/.vite/
+client/coverage/
+
+# Production builds
+client/out/
+
+# =============================================
+# SERVER (Fastify, Express, NestJS, etc.)
+# =============================================
+
+server/node_modules/
+server/dist/
+server/build/
+server/.env
+server/logs/
+server/coverage/
+
+# Fastify specific (if any)
+server/.fastify/
+
+# =============================================
+# IOT / Embedded (Arduino, PlatformIO, ESP)
+# =============================================
+
+# PlatformIO
+.pio/
+.pioenvs/
+.platformio/
+
+# Arduino
+*.ino.cpp*
+.vscode/arduino.json
+*.elf
+*.hex
+*.bin
+*.map
+
+# Build and cache
+IOT/build/
+IOT/dist/
+IOT/.cache/
+
+# =============================================
+# MOBILE APP (React Native + Expo)
+# =============================================
+
+app/node_modules/
+app/.expo/
+app/expo-env.d.ts
+app/dist/
+app/build/
+
+# Expo generated files
+app/.expo-shared/
+app/web-build/
+
+# React Native specific
+app/android/.gradle/
+app/android/build/
+app/android/app/build/
+app/ios/build/
+app/ios/Pods/
+app/ios/*.xcworkspace
+app/ios/*.xcodeproj/project.xcworkspace/
+app/ios/*.xcodeproj/xcuserdata/
+
+# Metro bundler
+app/.metro/
+
+# =============================================
+# Optional: Global ignores (uncomment if needed)
+# =============================================
+
+# # Yarn
+# .yarn/*
+# !.yarn/patches
+# !.yarn/releases
+# !.yarn/plugins
+# !.yarn/sdks
+# !.yarn/versions
+
+# # pnpm
+# .pnpm-store/
