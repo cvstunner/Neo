@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"name": "device",
+			"path": "./device",
+		},
+		{
+			"name": "client",
+			"path": "./client",
+		},
+		{
+			"name": "server",
+			"path": "./server",
+		},
+		{
+			"name": "docs",
+			"path": "./docs",
+		},
+		{
+			"name": "others",
+			"path": ".",
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"device/": true,
+			"client/": true,
+			"server/": true,
+			"docs/": true
+		}
+	}
+}
